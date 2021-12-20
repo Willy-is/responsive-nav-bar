@@ -1,0 +1,121 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-light-grey: #7c7979;
+  --color-grey: #616161;
+  --color-dark-grey: #4d4d4d;
+  --color-black: #000000;
+  --color-light-beige: #e8ded1;
+  --color-beige: #d1c0a8;
+  --color-dark-beige: #bfaa8c;
+  --color-brown: #a0816c;
+  --color-light-olive: #918936;
+  --color-olive: #45411d;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  /* text-decoration: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+  text-decoration: none;
+  color: var(--color-olive);
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  /* list-style property needs to be assigned in li tag */
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: var(--color-light-beige);
+}
+
+/* Navbar */
+#navbar {
+  background-color: var(--color-light-beige);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.navbar__logo {
+  font-size: 24px;
+  color: var(--color-white);
+}
+
+.navbar__logo i {
+  color: var(--color-olive);
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+}
+
+.navbar__menu__item:hover {
+  background-color: var(--color-beige);
+  border-radius: 4px;
+}
+
+.navbar__icons {
+  display: flex;
+  color: var(--color-olive);
+}
+
+.navbar__icons li {
+  padding: 8px 12px;
+}
+
+.navbar__toggle-btn {
+  font-size: 24px;
+  position: absolute;
+  right: 32px;
+  top: 8px;
+  color: var(--color-olive);
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+
+  .navbar__icons {
+    justify-content: center;
+    width: 100%;
+    display: none;
+  }
+
+  .navbar__toggle-btn {
+    display: block;
+  }
+}
