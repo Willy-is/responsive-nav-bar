@@ -21,11 +21,7 @@ The wide screen and small screen were sectionised by the block level, and Block 
 
 ## CSS
 
-In CSS, the custom properties for the colours and border radius size were declared under the `:root`. To make it responsive, media query is used.
-
-```css
-@media
-```
+In CSS, the custom properties for the colours and border radius size were declared under the `:root`. To make it responsive, `@media` query is used.
 
 Furthermore, responsive units such as **em** & **rem** are used instead of ~~px~~ in order to be more fluid.
 
