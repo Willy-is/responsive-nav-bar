@@ -27,22 +27,16 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  /* cursor: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
   cursor: default;
 }
 
 a {
-  /* text-decoration: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
   text-decoration: none;
   color: var(--color-olive);
 }
 
 ul {
   padding-left: 0;
-}
-
-li {
-  /* list-style property needs to be assigned in li tag */
   list-style: none;
   cursor: pointer;
 }
