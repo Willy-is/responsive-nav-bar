@@ -2,11 +2,11 @@
 
 In this project, the navigation bar was designed by using media query in CSS and responsive units; em & rem.
 
-# Wide screen
+## Wide screen
 
 <img width="800" alt="wide-screen-view" src="https://user-images.githubusercontent.com/57608628/146876782-555b139b-d2f3-4f47-aabb-e12049ab9ff2.png">
 
-# Small screen
+## Small screen
 
 <img width="800" alt="small-screen-view" src="https://user-images.githubusercontent.com/57608628/146876852-c78eb727-e90d-422a-9368-d5b484a67383.png">
 
